@@ -1,0 +1,62 @@
+@font-face{
+    font-family: show;
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+@font-face{
+    font-family: titre;
+    src: url(dealerplate_california.otf);
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff1f2;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.home , .guest{
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+
+}
+h3{
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-family: titre;
+    letter-spacing: 8px;
+    color: #9f1239;
+}
+p{
+    margin-top: -15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 50px;
+    width: 150px;
+    height: 150px;
+    color: #ffe4e6;
+    background-color: #9f1239;
+    font-family: show;
+}
+.point-btns{
+    margin-top: -15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn{
+    background: none;
+    border:solid 2px #9f1239;
+    border-radius: 5px;
+    width: 37px;
+    height: 37px;
+    color: #9f1239;
+    font-family: show;
+    font-size: 20px;
+}
